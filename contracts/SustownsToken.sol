@@ -1,9 +1,9 @@
 pragma solidity ^0.6.0;
 
 contract SustownsToken {
-    string public name = "Sustowns Token"; //Optional
-    string public symbol = "SUSTO"; //Optional
-    string public standard = "Sustowns Token v1.0"; //Not in documentation, extra!
+    string public name = "Sustowns Token"; 
+    string public symbol = "SUSTO"; 
+    string public standard = "Sustowns Token v1.0"; 
     uint256 public totalSupply;
 
     event Transfer(address indexed _from, address indexed _to, uint256 _value);
